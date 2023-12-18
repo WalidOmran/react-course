@@ -1,0 +1,28 @@
+/* **** Brand **** */
+.brand {
+    padding: 70;
+}
+.brand_item {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: var(--light-gray);
+    transition: .7s;
+}
+.brand_img {
+    transition: .7s;
+}
+.brand_item:hover {
+    border: solid 1px var(--text-color);
+}
+.brand_item:hover .brand_img {
+    transform: scale(1.1);
+}
+.brand_content {
+    padding: 0 15px;
+}
+.brand_title {
+    margin-bottom: 8px;
+}
+.brand_desc {}

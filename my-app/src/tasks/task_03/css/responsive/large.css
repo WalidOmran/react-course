@@ -1,0 +1,76 @@
+/* ***** Large Screen ***** */
+@media only screen and (min-width: 992px) {
+    /* **** Wo Framework **** */
+    @import url(./framework/large.css);
+    .wo_item-lg-6 {
+        width: calc(100%/2);
+    }
+    .wo_item-lg-4 {
+        width: calc(100%/3);
+    }
+    .wo_item-lg-3 {
+        width: calc(100%/4);
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    /* **** Header **** */
+    .main-header_search {
+        width: 45%;
+        padding: 0;
+        order: 0;
+    }
+    .main-header_top-nav-center {
+        display: block;
+    }
+    .main-header_bar {
+        display: none;
+    }
+    .main-header_navbar-content {
+        display: flex;
+    }
+    .main-header_list {
+        position: static;
+        min-width: auto;
+        display: flex;
+        align-items: center;
+        z-index: inherit;
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-header_item , 
+    .main-header_link {
+        width: auto;
+        padding: 5px;
+        font-weight: 600;
+    }
+    .main-header_mobile-icons {
+        display: none;
+    }
+    .main-header_mobile-icons ,
+    .main-header_icons  {
+        padding: 0 5px;
+        color: var(--white);
+    }
+    /* **** Delivery **** */ 
+    .delivery_title {
+        font-size: 3.3rem;
+    }
+    
+    
+    /* **** Buy and installments **** */
+    .buy-installments_item {
+        width: calc(100% /4);
+        margin-bottom: 0;
+    }
+    /* **** Discover More **** */
+    .discover-more_title {
+        max-width: 50%;
+        font-size: 4.5rem;
+        text-align: left;
+    }
+    /* **** Brands **** */
+    .brand_item {
+        width: calc(100% / 5);
+    }
+}

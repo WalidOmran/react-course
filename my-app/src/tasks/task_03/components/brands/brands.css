@@ -1,0 +1,12 @@
+/* **** Brands **** */
+.brands {
+    padding: 70px 0;
+}
+.brands_aria {
+    padding: 0 50px;
+}
+.brand_item {
+    width: calc(100% / 2);
+    padding: 20px;
+}
+.brand_img {}

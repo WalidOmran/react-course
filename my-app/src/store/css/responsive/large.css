@@ -1,0 +1,29 @@
+/* ***** Large Screen ***** */
+@media only screen and (min-width: 992px) {
+    /* **** Wo Framework **** */
+    @import url(./framework/large.css);
+    .wo_item-lg-6 {
+        width: calc(100%/2);
+    }
+    .wo_item-lg-4 {
+        width: calc(100%/3);
+    }
+    .wo_item-lg-3 {
+        width: calc(100%/4);
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    /* **** Header **** */
+    
+    /* **** Delivery **** */ 
+    
+    
+    
+    /* **** Buy and installments **** */
+    
+    /* **** Discover More **** */
+    
+    /* **** Brands **** */
+    
+}

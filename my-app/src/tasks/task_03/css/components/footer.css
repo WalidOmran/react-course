@@ -1,0 +1,40 @@
+/* **** Main Footer  **** */
+.main-footer {
+    background-color: #252525;
+}
+.main-footer_payment {
+    padding: 50px 0;
+    background-color: black;
+}
+.main-footer_payment-desc {
+    color: #bcbcbc;
+ }
+.main-footer_content {
+    padding: 50px 0;
+}
+.main-footer_card {
+    margin-bottom: 20px;
+}
+.main-footer_card-title {
+    margin: 15px 0;
+    color: #777;
+}
+.main-footer_list {
+    
+}
+.main-footer_item {
+
+}
+.main-footer_link {
+    color: #ccc;
+}
+.main-footer hr {
+    height: 1px;
+}
+.main-footer_copyright {
+    padding: 30px 0;
+    color: #777;
+}
+.main-footer_copyright-link {
+    color: #999;
+}

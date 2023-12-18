@@ -1,0 +1,36 @@
+/* **** Discover More **** */
+.discover-more {
+    padding: 70px 0;
+    background: var(--light-gray);
+    overflow: hidden;
+}
+.discover-more_title {
+    max-width: 100%;
+    font-size: 3rem;
+    line-height: 1.3;
+    text-align: center;
+}
+.discover-more_title span {
+    font-weight: 100;
+}
+.discover-more_img {
+    transform: scale(1.4);
+    margin: auto;
+}
+/* ***** Medium Screen ***** */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* ***** Large Screen ***** */
+@media only screen and (min-width: 992px) {
+    .discover-more_title {
+        max-width: 50%;
+        font-size: 4.5rem;
+        text-align: left;
+    }
+}
+/* ***** Extra large ***** */
+@media only screen and (min-width: 1200px) {
+    
+}

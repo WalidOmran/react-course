@@ -1,0 +1,22 @@
+/* ***** Medium Screen ***** */
+@media only screen and (min-width: 768px) {
+    /* **** Wo Framework **** */
+    .wo_item-md-6 {
+        width: calc(100%/2);
+    }
+    .wo_item-md-3 {
+        width: calc(100%/4);
+    }
+    /* **** Main Header **** */
+    
+    
+    
+    /* **** Slider **** */
+   
+    /* **** Delivery **** */
+   
+    /* **** Buy and installments **** */
+    
+    /* **** Brands **** */
+    
+}

@@ -1,0 +1,50 @@
+/* **** Wo Framework **** */
+.wo_row ,
+.wo_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wo_nowrap {
+    flex-wrap: nowrap;
+}
+.wo_column {
+    flex-direction: column;
+}
+.wo_content-center {
+    justify-content: center;
+}
+.wo_content-space-between {
+    justify-content: space-between;
+}
+.wo_content-space-around {
+    justify-content: space-around;
+}
+.wo_content-space-evenly {
+    justify-content: space-evenly;
+}
+.wo_items-center {
+    align-items: center;
+}
+.wo_items-end {
+    align-items: end;
+}
+.wo_item ,.wo_100 {
+    width: 100%;
+}
+.wo_50 {
+    max-width: 50%;
+}
+.wo_h-100 {
+    height: 100%;
+}
+.wo_text-center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+

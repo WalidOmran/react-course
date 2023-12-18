@@ -1,0 +1,43 @@
+/* **** Sign In **** */
+.sign-in {
+    padding: 70px 0;
+    background: var(--light-gray);
+}
+.sign-in_area {
+    
+}
+.sign-in_title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+.sign-in_btn {
+    display: block;
+    margin: 30px auto 40px;
+    padding: 15px 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background: #e5c301;
+    background: gold;
+    /* background: goldenrod; */
+    color: #fff;
+}
+.sign-in_link {
+    display: inherit;
+    width: fit-content;
+    margin-left: auto;
+}
+/* ***** Medium Screen ***** */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* ***** Large Screen ***** */
+@media only screen and (min-width: 992px) {
+
+}
+/* ***** Extra large ***** */
+@media only screen and (min-width: 1200px) {
+    
+}

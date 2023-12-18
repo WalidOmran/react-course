@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+  padding: 30px;
+  background: #fbf3e8;
+
+}
+  /* *** Card *** */
+.card {
+    max-width: 250px;
+    margin: 50px auto;
+    padding: 50px 15px;
+    border-radius: 15px;
+    text-align: center;
+    background: #fff;
+}
+.card_btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff956e;
+    color: #fff;
+    border: none ;
+    cursor: pointer;
+}
+.card_icon {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ff956e;
+}
+.card_title {
+   margin: 15px 0 10px;
+}
+.card_desc {
+   color: #838181fc;
+}
+  
+  /* *** download *** */
+  .download {
+    max-width: 40%;
+    margin: auto ;
+    padding: 30px 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    font-weight: 600;
+  }
+  .download_title {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .download_content {
+    display: flex;
+    align-items: center;
+    
+  }
+  .download_progres {
+    min-width: 95%;
+    max-width: 100%;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .download_line {
+    width: 75%;
+    height: inherit;
+    border-radius: inherit;
+    background: #ff956e;
+}
+
+/* **** User *** */
+.user {
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  line-height: 1.5;
+    text-align: left;
+  background-color: #fff;
+}
+.user_left {
+  position: relative;
+}
+.user_img {
+  position: relative;
+  max-width: 55px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.user_left::after {
+  content: '';
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff956e;
+}
+.user_text {
+  margin-left: 20px;
+}
+.user_item {
+  font-size: smaller;
+}
+.user_item:first-of-type {
+  color: #8a8a8a;
+}
+.user_item:last-of-type {
+  color: #ff956e;
+}
+.user_title {}
+.user_time {
+  font-size: smaller;
+  font-weight: 700;
+  color: #8a8a8a;
+}

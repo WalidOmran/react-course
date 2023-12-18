@@ -1,0 +1,30 @@
+/* **** Brands **** */
+.brands {
+    padding: 70px 0;
+}
+.brands_aria {
+    padding: 0 50px;
+}
+.brand_item {
+    width: calc(100% / 2);
+    padding: 20px;
+}
+.brand_img {}
+
+/* ***** Medium Screen ***** */
+@media only screen and (min-width: 768px) {
+    .brand_item {
+        width: calc(100% / 3);
+    }
+}
+
+/* ***** Large Screen ***** */
+@media only screen and (min-width: 992px) {
+    .brand_item {
+        width: calc(100% / 5);
+    }
+}
+/* ***** Extra large ***** */
+@media only screen and (min-width: 1200px) {
+    
+}

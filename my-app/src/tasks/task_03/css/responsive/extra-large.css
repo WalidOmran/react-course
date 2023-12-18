@@ -1,0 +1,26 @@
+/* ***** Extra large ***** */
+@media only screen and (min-width: 1200px) {
+    /* **** Hero **** */
+    .hero {
+        height: 100vh;
+    } 
+    .hero_content {
+        align-items: center;
+    }
+    .hero_text {
+        max-width: 50%; 
+        transform: translate(0,0);
+    }
+    .hero_title {
+        font-size: 4rem;
+    }
+    .hero_desc {
+        
+    }
+    .hero_btn {
+        
+     }
+    .hero_stage {
+        display: block;
+    }
+}
