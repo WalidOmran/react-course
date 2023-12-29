@@ -25,14 +25,14 @@ function Subscribe(){
                         method="get"
                         eventName='onSubmit'
                         onEvent={handleSubscribe}>
-                            <Input  className="main-header_search-input"
+                            <Input  className="main-header_search-input subscribe--input"
                                     type="text" 
                                     name="subscribe" 
                                     placeholder="Enter your email here"
                             />
-                            <Label className="main-header_search-icon" forValue="mainHeaderSearch">
-                                subscribe
-                            </Label>
+                            <button className="main-header_search-icon subscribe--icon">
+                                Subscribe
+                            </button>
                     </Form>
                 </section>
             </div>

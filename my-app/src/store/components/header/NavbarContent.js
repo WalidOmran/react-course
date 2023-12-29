@@ -7,7 +7,7 @@ function NavbarContent() {
     const langList = ['Bangla', 'Arabic','Urdu'];
     const locationList = ['Dhaka', 'USA','India'];
     return(
-        <ul className="main-header_navbar-content wo_flex ">
+        <ul className="main-header_navbar-content  ">
             <ListItem className="main-header_item main-header_lang">
                 <div className="main-header_lang-btn" role="button" tabindex="0" onClick={()=>{console.log('main-header_lang-btn')}}>
                     <span>Eng</span>

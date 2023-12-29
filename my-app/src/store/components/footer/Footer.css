@@ -1,54 +1,94 @@
 /* **** Main Footer  **** */
 .main-footer {
-    background-color: #252525;
+    background-color: #fefcef;
 }
-.main-footer_payment {
+/* .main-footer_payment {
     padding: 50px 0;
     background-color: black;
 }
 .main-footer_payment-desc {
     color: #bcbcbc;
- }
+ } */
 .main-footer_content {
     padding: 50px 0;
 }
-.main-footer_card {
+.main-footer_widget {
     margin-bottom: 20px;
 }
-.main-footer_card-title {
-    margin: 15px 0;
-    color: #777;
+.main-footer_widget-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.main-footer_widget-contact {
+    margin-bottom: 10px;
+}
+.main-footer_widget-contact-title {
+    font-size: 14px;
+    margin-bottom: 4px;
 }
 .main-footer_list {
     
 }
-.main-footer_item {
-
+.main-footer_widget-list-item {
+    margin-bottom: 7px;
 }
-.main-footer_link {
+.main-footer_widget-dec,
+.main-footer_widget-list-link {
+    font-size: 13px;
+    line-height: 23px;
+    color: #444444;
+}
+/* .main-footer_link {
     color: #ccc;
 }
 .main-footer hr {
     height: 1px;
-}
+} */
 .main-footer_copyright {
-    padding: 30px 0;
-    color: #777;
+    padding: 20px 0;
+    border-top: solid 1px #eae9e9;
+}
+.main-footer_copyright-content {
+    justify-content: center;
+}
+.main-footer_copyright-content img {
+    max-height: 18px;
+}
+.main-footer_copyright-text {
+    margin-top: 15px;
+    font-size: 13px;
 }
 .main-footer_copyright-link {
-    color: #999;
+    font-weight: 700;
 }
 
 /* ***** Medium Screen ***** */
 @media only screen and (min-width: 768px) {
-
+    .main-footer_content {
+        display: flex;
+    }
+    .main-footer_widget {
+        width: calc(100% / 2);
+    }
 }
 
 /* ***** Large Screen ***** */
 @media only screen and (min-width: 992px) {
-
+    .main-footer_copyright-content {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .main-footer_copyright-text {
+        margin: 0;
+    }  
 }
 /* ***** Extra large ***** */
 @media only screen and (min-width: 1200px) {
-    
+    .main-footer_widget {
+        width: calc(100% / 4);
+    }
 }

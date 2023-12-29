@@ -36,8 +36,8 @@ code {
   -1px -1px 10px rgba(0, 0, 0, 0.2); */
 }
 .main-link {
-    padding: 15px 30px;
-    margin: 20px;
+    padding: 15px 15px;
+    margin: 10px;
     border-radius: 10px;
     font-size: 1.8vw;
     /* color: #fff; */

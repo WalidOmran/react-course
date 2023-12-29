@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "../common/Button";
-import localSliderItems2 from "../Api/apiSlider";
+import sliderItems from "../Api/apiSlider";
 function SliderControls({count}){
     const [index,setIndex] = useState(count);
     function sliderPrev() {

@@ -6,6 +6,7 @@ import LastProducts from './tasks/task_04/last-products/LastProducts';
 import BusinessCard from './tasks/business_card/BusinessCard';
 import ToDoList from './tasks/to-do-list/ToDoList';
 import Store from './store/Store';
+import FilterableList from './tasks/search_bar/FilterableList';
 // import './App.css';
 
 
@@ -21,6 +22,7 @@ function Main(){
         <Link to='/BusinessCard' className='main-link'>Business Card</Link>
         <Link to='/ToDoList' className='main-link'>To Do List</Link>
         <Link to='/store' className='main-link'>Store</Link>
+        <Link to='/FilterableList' className='main-link'>FilterableList</Link>
       </div>
     </div>
   );
@@ -38,6 +40,7 @@ function App() {
         <Route path='/BusinessCard' element={<BusinessCard/>} />
         <Route path='/Task4' element={<LastProducts/>} /> 
         <Route path='/ToDoList' element={<ToDoList/>} /> 
+        <Route path='/FilterableList' element={<FilterableList/>} /> 
       </Routes>
       {/* <ToDoList/> */}
       {/* <BusinessCard/> */}
