@@ -7,6 +7,9 @@ import BusinessCard from './tasks/business_card/BusinessCard';
 import ToDoList from './tasks/to-do-list/ToDoList';
 import Store from './store/Store';
 import FilterableList from './tasks/search_bar/FilterableList';
+import Lecture_11 from './tasks/lecture_11/Lecture_11';
+import Lecture12 from './tasks/lecture_12/Lecture12';
+import Lecture13 from './tasks/lecture_13/Lecture13';
 // import './App.css';
 
 
@@ -23,6 +26,9 @@ function Main(){
         <Link to='/ToDoList' className='main-link'>To Do List</Link>
         <Link to='/store' className='main-link'>Store</Link>
         <Link to='/FilterableList' className='main-link'>FilterableList</Link>
+        <Link to='/Lecture_11' className='main-link'>Lecture_11</Link>
+        <Link to='/Lecture_12' className='main-link'>Lecture_12</Link>
+        <Link to='/Lecture13' className='main-link'>Lecture_13</Link>
       </div>
     </div>
   );
@@ -41,6 +47,10 @@ function App() {
         <Route path='/Task4' element={<LastProducts/>} /> 
         <Route path='/ToDoList' element={<ToDoList/>} /> 
         <Route path='/FilterableList' element={<FilterableList/>} /> 
+        <Route path='/Lecture_11' element={<Lecture_11/>} />
+        <Route path='/Lecture_12' element={<Lecture12/>} />
+        {/* Lecture13 */}
+        <Route path='/Lecture13' element={<Lecture13/>} />
       </Routes>
       {/* <ToDoList/> */}
       {/* <BusinessCard/> */}

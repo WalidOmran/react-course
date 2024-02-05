@@ -25,7 +25,7 @@ console.log('test : '+product.title);
            <section className="single-product">
                 <SingleProductBanners />
                 <div className="container">
-                    <ProductDetails product={product}/>
+                    {/* <ProductDetails product={product}/> */}
                 </div>
                 {/* {product.rating.rate } */}
                 {/* {product.rating.count} */}

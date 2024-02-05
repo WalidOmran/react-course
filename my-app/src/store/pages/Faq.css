@@ -1,0 +1,28 @@
+/* **** Faq **** */
+.faq-main {
+    
+}
+.faq-content {
+    
+}
+.faq_column {
+    padding: 60px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+}
+.faq_column-item {
+    margin-bottom: 42px;
+}
+.faq_column-item-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.faq_column-item-desc {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+}

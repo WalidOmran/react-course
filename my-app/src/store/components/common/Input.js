@@ -1,5 +1,5 @@
 import productsData from "../Api/apiProducts";
-function Input({className,type,name,id,placeholder,value}){
+function Input({className,type,name,id,placeholder,value,onChange}){
     // function handleClick(e){
     //     e.stopPropagation();
     //     e.preventDefault();
@@ -12,7 +12,7 @@ function Input({className,type,name,id,placeholder,value}){
         filterData.map((item)=>
             console.log(item)
         )
-        // console.log(filterData)
+        
     }
     return(
         <input className={className}
@@ -20,8 +20,8 @@ function Input({className,type,name,id,placeholder,value}){
                name={name}
                id={id}
                placeholder={placeholder} 
-               onChange={handelChange}
-               value={value}    
+               onChange={onChange}
+               value={value}  
         />
     );
 }

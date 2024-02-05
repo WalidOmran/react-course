@@ -2,33 +2,7 @@
 .single-product{
     /* padding: 50px 0; */
 }
-.single-product_banner ,
-.single-product_header {
-    width: calc(100%/3);
-    max-height: 100px;
-    margin: 0 0 80px 0;
-    overflow: hidden;
-}
-.single-product_banner {
-    padding: 0 20px;
-    background-color: #dfd9d94f;
-    background-color: #e5c30140;
-}
-.single-product_banner-img {
-    max-width: 100px;
-    /* margin: 0 10px; */
-}
-.single-product_banner-title {
 
-}
-.single-product_banner-price {
-    
-}
-.single-product_header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .single-product_img {
     max-width: 75%;
 }

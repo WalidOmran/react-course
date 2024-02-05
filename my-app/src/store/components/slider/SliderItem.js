@@ -22,13 +22,11 @@ function SliderItem({count}){
     return(
         
            <>
-                <Link to={`/products/${sliderItems[index].id}`} className="slider_item active">
+                <Link to={`/store/products/${sliderItems[index].id}`} className="slider_item active">
                     <section  className="wo_h-100 wo_flex wo_content-space-between wo_items-center  active">
                         <div  className="slider_text">
                             <h2  className="slider_title">
                                 {sliderItems[index].title}
-                            {/* <span>uPhone X</span>
-                            IT’S <span  className="big">29%</span> OFF */}
                             </h2>  
                         </div>
                         <figure  className="slider_img">

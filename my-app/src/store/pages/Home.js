@@ -7,7 +7,8 @@ import Discover from "../components/discover-more/Discover";
 import Offers from "../components/today-offers/Offers";
 import SignIn from "../components/sign-in/SignIn";
 import Brands from "../components/brands/Brands";
-import Subscribe from "../components/subscribe/Subscribe"
+import Subscribe from "../components/subscribe/Subscribe";
+// import SingleProduct from "./SingleProduct";
 import Footer from "../components/footer/Footer";
 import '../css/main.css';
 function Home (){

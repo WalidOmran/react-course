@@ -23,14 +23,14 @@ function NavbarContent() {
                 <OptionList optionList={locationList} />
             </ListItem>
             <ListItem className="main-header_item">
-                <Link to="/user" className="main-header_link">
+                <Link to="/store/user" className="main-header_link">
                     <figure className="main-header_navbar-icon">
                         <img src={userIcon} loading="lazy" alt="user"/>
                     </figure>
                 </Link>
             </ListItem>
             <ListItem className="main-header_item">
-                <Link to="/cart" className="main-header_link">
+                <Link to="/store/cart" className="main-header_link">
                     <figure className="main-header_navbar-icon">
                         <img src={cartIcon} loading="lazy" alt="cart" />
                     </figure>
